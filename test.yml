@@ -1,0 +1,5 @@
+- include_vars:
+    file: xyz.txt
+    name: my_name
+- set_fact:
+   classnames: "{{my_name|dict2items}}"
